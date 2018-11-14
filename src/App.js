@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
+// import './App.css';
+import './css/App.css';
 import "react-router";
 import {
   BrowserRouter,
@@ -12,20 +13,50 @@ import Cart from './components/Cart/Cart'
 
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      movies: [],
+      isLoaded: false,
+    }
+  }
+
+  componentDidMount() {
+    fetch('http://localhost:3000/movies')
+      .then(res => res.json())
+      .then(json => {
+        this.setState({
+          isLoaded: true,
+          movies: json,
+        })
+      })
+  }
+
   render() {
-    return (
-      <BrowserRouter>
-        <div className="App">
-          <Header />
 
-          <Link to="/">Home</Link>
-          <Link to="/shoppingcart">Cart</Link>
+    var {isLoaded, movies} = this.state;
 
-          <Route exact path="/" component={Home} />
-          <Route path="/shoppingcart" component={Cart} />
-        </div>
-      </BrowserRouter>
-    );
+    if (!isLoaded) {
+      return <div>Loading...</div>;
+    } else {
+      return (
+        <BrowserRouter>
+          <div className="App">
+            <Header />
+
+            <Home movies={this.state.movies}/>
+
+            <Link to="/">Home</Link>
+            <Link to="/shoppingcart">Cart</Link>
+
+            <Route exact path="/" component={Home} />
+            <Route path="/shoppingcart" component={Cart} />
+          </div>
+        </BrowserRouter>
+      );
+    }
+
+    
   }
 }
 
