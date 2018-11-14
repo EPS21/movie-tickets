@@ -3,7 +3,7 @@
         {
             "id": 1,
             "movie_name": "The Avengers",
-            "poster": "https://www.imdb.com/title/tt0848228/mediaviewer/rm3955117056",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
             "director_name": "Joss Whedon",
             "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
             "rating": "8.1/10",
@@ -13,7 +13,7 @@
         {
             "id": 2,
             "movie_name": "Avengers: Age of Ultron",
-            "poster": "https://www.imdb.com/title/tt2395427/mediaviewer/rm4050576640",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SY1000_SX675_AL_.jpg",
             "director_name": "Joss Whedon",
             "synopsis": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
             "rating": "7.4/10",
@@ -23,7 +23,7 @@
         {
             "id": 3,
             "movie_name": "Avengers: Infinity War",
-            "poster": "https://www.imdb.com/title/tt4154756/mediaviewer/rm4044245504",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
             "director_name": "Anthony & Joe Russo",
             "synopsis": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
             "rating": "8.6/10",
@@ -33,7 +33,7 @@
         {
             "id": 4,
             "movie_name": "Batman Begins",
-            "poster": "https://www.imdb.com/title/tt0372784/mediaviewer/rm277354496",
+            "poster": "https://m.media-amazon.com/images/M/MV5BZmUwNGU2ZmItMmRiNC00MjhlLTg5YWUtODMyNzkxODYzMmZlXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SY1000_SX750_AL_.jpg",
             "director_name": "Christopher Nolan",
             "synopsis": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
             "rating": "8.3/10",
@@ -43,7 +43,7 @@
         {
             "id": 5,
             "movie_name": "The Dark Knight",
-            "poster": "https://www.imdb.com/title/tt0468569/mediaviewer/rm4023877632",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
             "director_name": "Christopher Nolan",
             "synopsis": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
             "rating": "9/10",
@@ -53,7 +53,7 @@
         {
             "id": 6,
             "movie_name": "The Dark Knight Rises",
-            "poster": "https://www.imdb.com/title/tt1345836/mediaviewer/rm834516224",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_.jpg",
             "director_name": "Christopher Nolan",
             "synopsis": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.",
             "rating": "8.4/10",
@@ -63,7 +63,7 @@
         {
             "id": 7,
             "movie_name": "Dumb and Dumber",
-            "poster": "https://www.imdb.com/title/tt0109686/mediaviewer/rm1722947584",
+            "poster": "https://m.media-amazon.com/images/M/MV5BZDQwMjNiMTQtY2UwYy00NjhiLTk0ZWEtZWM5ZWMzNGFjNTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
             "director_name": "Peter Farrelly",
             "synopsis": "The cross-country adventures of 2 good-hearted but incredibly stupid friends.",
             "rating": "7.3/10",
@@ -73,7 +73,7 @@
         {
             "id": 8,
             "movie_name": "Dumb and Dumber To",
-            "poster": "https://www.imdb.com/title/tt2096672/mediaviewer/rm3870412032",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTYxMzA0MzAyMF5BMl5BanBnXkFtZTgwMjMyNjcwMjE@._V1_SY1000_CR0,0,631,1000_AL_.jpg",
             "director_name": "Peter & Bobby Farrelly",
             "synopsis": "20 years since their first adventure, Lloyd and Harry go on a road trip to find Harry's newly discovered daughter, who was given up for adoption.",
             "rating": "5.6/10",
@@ -83,7 +83,7 @@
         {
             "id": 9,
             "movie_name": "Rain Man",
-            "poster": "https://www.imdb.com/title/tt0095953/mediaviewer/rm275842816",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMzVjNzI4NzYtMjE4NS00M2IzLWFkOWMtOTYwMWUzN2ZlNGVjL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
             "director_name": "Barry Levinson",
             "synopsis": "Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.",
             "rating": "8/10",
@@ -93,7 +93,7 @@
         {
             "id": 10,
             "movie_name": "Bruce Almighty",
-            "poster": "https://www.imdb.com/title/tt0315327/mediaviewer/rm2767651328",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNzMyZDhiZDUtYWUyMi00ZDQxLWE4NDQtMWFlMjI1YjVjMjZiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
             "director_name": "Tom Shadyac",
             "synopsis": "A guy who complains about God too often is given almighty powers to teach him how difficult it is to run the world.",
             "rating": "6.7/10",
