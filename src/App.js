@@ -34,7 +34,7 @@ class App extends Component {
 
   render() {
 
-    var {isLoaded, movies} = this.state;
+    var {isLoaded} = this.state;
 
     if (!isLoaded) {
       return <div>Loading...</div>;
@@ -44,13 +44,13 @@ class App extends Component {
           <div className="App">
             <Header />
 
-            <Home movies={this.state.movies}/>
+            <Home movies={this.state.movies} />
 
-            <Link to="/">Home</Link>
+            {/* <Link to="/">Home</Link>
             <Link to="/shoppingcart">Cart</Link>
 
             <Route exact path="/" component={Home} />
-            <Route path="/shoppingcart" component={Cart} />
+            <Route path="/shoppingcart" component={Cart} /> */}
           </div>
         </BrowserRouter>
       );
