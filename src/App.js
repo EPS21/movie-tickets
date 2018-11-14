@@ -11,7 +11,7 @@ import {
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Cart from './components/Cart/Cart'
-
+import MovieInfo from './components/MovieInfo/MovieInfo';
 
 class App extends Component {
   constructor(props) {
@@ -35,7 +35,7 @@ class App extends Component {
 
   render() {
 
-    var {isLoaded} = this.state;
+    var {isLoaded, movies} = this.state;
 
     if (!isLoaded) {
       return <div>Loading...</div>;
@@ -52,13 +52,12 @@ class App extends Component {
                 render={() => <Home movies={movies}/>}
               />
               <Route path="/shoppingcart" component={Cart} />
+              <Route path="/:id" component={MovieInfo} />
+
             </Switch>
 
             <Link to="/">Home</Link>
             <Link to="/shoppingcart">Cart</Link>
-
-            {/* <Route exact path="/" component={Home} />
-            <Route path="/shoppingcart" component={Cart} /> */}
             
           </div>
         </BrowserRouter>
