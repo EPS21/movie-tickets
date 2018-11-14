@@ -6,16 +6,17 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-import Header from './components/Header';
+import Header from './components/Header/Header';
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
-        <h1>hi</h1>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Header />
+        </div>
+      </BrowserRouter>
     );
   }
 }
