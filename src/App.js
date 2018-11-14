@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
+// import './App.css';
+import './css/App.css';
 import "react-router";
 import {
   BrowserRouter,
@@ -7,17 +8,47 @@ import {
   Link
 } from 'react-router-dom'
 import Header from './components/Header/Header';
+import Home from './components/Home/Home';
 
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      movies: [],
+      isLoaded: false,
+    }
+  }
+
+  componentDidMount() {
+    fetch('http://localhost:3000/movies')
+      .then(res => res.json())
+      .then(json => {
+        this.setState({
+          isLoaded: true,
+          movies: json,
+        })
+      })
+  }
+
   render() {
-    return (
-      <BrowserRouter>
-        <div className="App">
-          <Header />
-        </div>
-      </BrowserRouter>
-    );
+
+    var {isLoaded, movies} = this.state;
+
+    if (!isLoaded) {
+      return <div>Loading...</div>;
+    } else {
+      return (
+        <BrowserRouter>
+          <div className="App">
+            <Header />
+            <Home movies={this.state.movies}/>
+          </div>
+        </BrowserRouter>
+      );
+    }
+
+    
   }
 }
 
