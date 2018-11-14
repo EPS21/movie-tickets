@@ -1,0 +1,14 @@
+.Head{
+    border-bottom: 2px solid black;
+}
+.Head h1{
+    display: inline-block;
+}
+
+.Carts{
+    float: right;
+}
+
+.Carts img{
+    float: right;
+}
