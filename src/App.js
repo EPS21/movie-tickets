@@ -7,6 +7,8 @@ import {
   Link
 } from 'react-router-dom'
 import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Cart from './components/Cart/Cart'
 
 
 class App extends Component {
@@ -15,6 +17,12 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Header />
+
+          <Link to="/">Home</Link>
+          <Link to="/shoppingcart">Cart</Link>
+
+          <Route exact path="/" component={Home} />
+          <Route path="/shoppingcart" component={Cart} />
         </div>
       </BrowserRouter>
     );
