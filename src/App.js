@@ -4,6 +4,7 @@ import './css/App.css';
 import "react-router";
 import {
   BrowserRouter,
+  Switch,
   Route,
   Link
 } from 'react-router-dom'
@@ -44,13 +45,22 @@ class App extends Component {
           <div className="App">
             <Header />
 
-            <Home movies={this.state.movies}/>
+            {/* <Home movies={this.state.movies}/> */}
+
+            <Switch /*movies={this.state.movies}*/>
+              <Route 
+                exact path="/" 
+                //component={Home}
+                render={() => <Home movies={movies}/>}
+              />
+              <Route path="/shoppingcart" component={Cart} />            
+
+            </Switch>
 
             <Link to="/">Home</Link>
             <Link to="/shoppingcart">Cart</Link>
 
-            <Route exact path="/" component={Home} />
-            <Route path="/shoppingcart" component={Cart} />
+            
           </div>
         </BrowserRouter>
       );
