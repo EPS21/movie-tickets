@@ -11,13 +11,24 @@ export default class Cart extends React.Component{
     }
 
     render(){
-        const movie = this.props.location.state;
+        const pur =this.props.location.state;
+        const movie = this.props.location.state ? (
+            <div>
+                <Purchase />
+                <ShortDesc movie={pur}/>
+            </div>
+        ) : (
+            <div>
+                <Purchase />
+            </div>
+        )
         // console.log(movie)
         return(
             <div className="cart-container">
-                <h3>Cart goes here</h3>
+                { movie }
+                {/* <h3>Cart goes here</h3>
                 <Purchase />
-                <ShortDesc movie={movie}/>
+                <ShortDesc movie={movie}/> */}
             </div>
         )
     }
