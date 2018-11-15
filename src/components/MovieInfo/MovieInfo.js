@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 export default class MovieInfo extends React.Component{
     constructor(props){
@@ -6,6 +7,7 @@ export default class MovieInfo extends React.Component{
         this.state={
             movie: null
         }
+        this.handleClick = this.handleClick.bind(this);
     }
 
     componentDidMount(){
@@ -17,6 +19,10 @@ export default class MovieInfo extends React.Component{
                     movie: movie
                 })
             })
+    }
+    handleClick(movie){
+        // console.log(movie)
+        console.log("movie")
     }
 
     render(){
@@ -35,7 +41,14 @@ export default class MovieInfo extends React.Component{
                     <p>{this.state.movie.rating}</p>
                     <h5>Run Time</h5>
                     <p>{this.state.movie.runtime} mins</p>
+
+                    <div>
+                        <Link to="/shoppingcart">
+                            <button movie={this.state.movie}>Buy tix</button>
+                        </Link>
+                    </div>
                 </div>
+                <br></br>
                 <div>
                     <iframe width="700" height="400" src={this.state.movie.trailer}></iframe>
                 </div>

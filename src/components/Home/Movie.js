@@ -8,15 +8,13 @@ export default class Movie extends React.Component {
     return (
       <Link to={"/"+movie.id} className="movie-container">
         <div className="img-container">
-          <img className="movie-img" src={movie.poster} alt={movie.movie_name} />
-            {/* {this.renderOverlay()} */}          
+          <img className="movie-img" src={movie.poster} alt={movie.movie_name} />          
         </div> 
         <div className="movie-desc">
-          <p>{movie.movie_name}, {movie.runtime}</p>
-          <p>Rating: {movie.rating}</p>          
+          <p>{movie.movie_name}, {movie.runtime} mins</p>
+          <p>Rating: {movie.rating}</p> 
         </div>
       </Link>
-
     );
   }
 }
