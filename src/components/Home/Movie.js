@@ -11,7 +11,7 @@ export default class Movie extends React.Component {
           <img className="movie-img" src={movie.poster} alt={movie.movie_name} />          
         </div> 
         <div className="movie-desc">
-          <p>{movie.movie_name}, {movie.runtime}</p>
+          <p>{movie.movie_name}, {movie.runtime} mins</p>
           <p>Rating: {movie.rating}</p>
 
           <Link to={"/"+movie.id}>
