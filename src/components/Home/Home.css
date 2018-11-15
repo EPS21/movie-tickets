@@ -1,5 +1,12 @@
-#search {
+.search {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   border: 1px solid black;
+}
+
+.search-sort-container {
+  margin: 5px 5px;
 }
 
 /* .movie-table {
@@ -9,11 +16,6 @@
 .movie-container {
 
 } */
-
-
-
-
-
 /*** From compare products ***/
 
 /*** ProdTable style ***/
@@ -40,7 +42,7 @@
 
 /** Product and Button styles **/
 .movie-container {
-  margin: 5px;
+  margin: 10px;
   width: 250px;
   /* flex-direction: column; */
   align-self: center;
