@@ -9,7 +9,8 @@ export default class Header extends React.Component{
                 <h1>Fandango Rip-off</h1>
                 <div className="Carts">
                     <p>Welcome, User</p>
-                    <img src={cart} alt={cart} height="35" width="35"/>
+                    <button ></button>
+                    {/* <img src={cart} alt={cart} height="35" width="35"/> */}
                 </div>
             </div>
         )

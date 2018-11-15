@@ -12,3 +12,13 @@
 .Carts img{
     float: right;
 }
+
+.Carts button{
+    float: right;
+    background: url("../imgs/cart.png");
+    background-size: contain;
+    height: 35px;
+    max-height: 100%;
+    width: 35px;
+    max-width: 100%;
+}
