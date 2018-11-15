@@ -3,16 +3,21 @@ import Purchase from './Purchase';
 import ShortDesc from './ShortDesc';
 
 export default class Cart extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            cart: 0
+        }
+    }
+
     render(){
-        // const id = this.props.location.state;
-        const movie = this.props.movie;
-        // console.log(id)
-        console.log(movie)
+        const movie = this.props.location.state;
+        // console.log(movie)
         return(
             <div className="cart-container">
                 <h3>Cart goes here</h3>
                 <Purchase />
-                <ShortDesc />
+                <ShortDesc movie={movie}/>
             </div>
         )
     }

@@ -53,8 +53,8 @@ class App extends Component {
               />
               <Route 
                 path="/shoppingcart"
-                render={()=><Cart movie={movies}/>}
-                // component={Cart}
+                // render={()=><Cart movie={movies}/>}
+                component={Cart}
               />
               <Route path="/:id" component={MovieInfo} />
 

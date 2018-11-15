@@ -6,7 +6,6 @@ export default class SearchBar extends React.Component{
     super(props);
     this.state = {
       inputStr: '',
-      hasInput: false // do I need this?
     }
 
     // You can put this bind in inputs onChange below, don't need it here
@@ -14,7 +13,6 @@ export default class SearchBar extends React.Component{
   }
 
   updateSearch(event) {
-    console.log(event.target.value);
     this.setState({
       inputStr: event.target.value
     })

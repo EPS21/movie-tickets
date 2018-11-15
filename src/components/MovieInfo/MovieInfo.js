@@ -41,8 +41,12 @@ export default class MovieInfo extends React.Component{
                     <div>
                         <Link to={{
                             pathname: "/shoppingcart",
-                            state: this.props.match.params.id
-                            }}>
+                            state: this.state.movie 
+                            // this.state.movie.id
+                            // {
+                            //     movie: this.state.movie
+                            // }
+                        }}>
                             <button>Buy tix</button>
                         </Link>
                     </div>
