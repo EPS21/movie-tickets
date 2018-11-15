@@ -7,7 +7,7 @@ export default class MovieInfo extends React.Component{
         this.state={
             movie: null
         }
-        this.handleClick = this.handleClick.bind(this);
+        // this.handleClick = this.handleClick.bind(this);
     }
 
     componentDidMount(){
@@ -19,10 +19,6 @@ export default class MovieInfo extends React.Component{
                     movie: movie
                 })
             })
-    }
-    handleClick(movie){
-        // console.log(movie)
-        console.log("movie")
     }
 
     render(){
@@ -43,8 +39,11 @@ export default class MovieInfo extends React.Component{
                     <p>{this.state.movie.runtime} mins</p>
 
                     <div>
-                        <Link to="/shoppingcart">
-                            <button movie={this.state.movie}>Buy tix</button>
+                        <Link to={{
+                            pathname: "/shoppingcart",
+                            state: this.props.match.params.id
+                            }}>
+                            <button>Buy tix</button>
                         </Link>
                     </div>
                 </div>
