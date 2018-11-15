@@ -11,7 +11,7 @@ import {
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Cart from './components/Cart/Cart'
-
+import MovieInfo from './components/MovieInfo/MovieInfo';
 
 class App extends Component {
   constructor(props) {
@@ -44,22 +44,20 @@ class App extends Component {
         <BrowserRouter>
           <div className="App">
             <Header />
-
             {/* <Home movies={this.state.movies}/> */}
 
-            <Switch /*movies={this.state.movies}*/>
+            <Switch>
               <Route 
                 exact path="/" 
-                //component={Home}
                 render={() => <Home movies={movies}/>}
               />
-              <Route path="/shoppingcart" component={Cart} />            
+              <Route path="/shoppingcart" component={Cart} />
+              <Route path="/:id" component={MovieInfo} />
 
             </Switch>
 
             <Link to="/">Home</Link>
             <Link to="/shoppingcart">Cart</Link>
-
             
           </div>
         </BrowserRouter>

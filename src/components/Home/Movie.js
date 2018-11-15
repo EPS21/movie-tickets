@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Link from 'react-router-dom';
 
 export default class Movie extends React.Component {
   render() {
@@ -14,6 +15,10 @@ export default class Movie extends React.Component {
         <div className="movie-desc">
           <p>{movie.movie_name}, {movie.runtime}</p>
           <p>Rating: {movie.rating}</p>
+
+          <Link to={"/"+movie.id}>
+            {movie.movie_name}
+          </Link>
         </div>
 
       </div>      

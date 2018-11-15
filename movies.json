@@ -8,7 +8,8 @@
             "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
             "rating": "8.1/10",
             "release_date": "05/04/2012",
-            "runtime": "143"
+            "runtime": "143",
+            "trailer": "https://www.youtube.com/embed/eOrNdBpGMv8"
         },
         {
             "id": 2,
@@ -18,7 +19,8 @@
             "synopsis": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
             "rating": "7.4/10",
             "release_date": "05/01/2015",
-            "runtime": "141"
+            "runtime": "141",
+            "trailer": "https://www.youtube.com/embed/tmeOjFno6Do"
         },
         {
             "id": 3,
@@ -28,7 +30,8 @@
             "synopsis": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
             "rating": "8.6/10",
             "release_date": "04/27/18",
-            "runtime": "149"
+            "runtime": "149",
+            "trailer": "https://www.youtube.com/embed/6ZfuNTqbHE8"
         },
         {
             "id": 4,
@@ -38,7 +41,8 @@
             "synopsis": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
             "rating": "8.3/10",
             "release_date": "06/15/05",
-            "runtime": "140"
+            "runtime": "140",
+            "trailer": "https://www.youtube.com/embed/neY2xVmOfUM"
         },
         {
             "id": 5,
@@ -48,7 +52,8 @@
             "synopsis": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
             "rating": "9/10",
             "release_date": "07/18/08",
-            "runtime": "152"
+            "runtime": "152",
+            "trailer": "https://www.youtube.com/embed/EXeTwQWrcwY"
         },
         {
             "id": 6,
@@ -58,7 +63,8 @@
             "synopsis": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.",
             "rating": "8.4/10",
             "release_date": "07/20/12",
-            "runtime": "165"
+            "runtime": "165",
+            "trailer": "https://www.youtube.com/embed/GokKUqLcvD8"
         },
         {
             "id": 7,
@@ -68,7 +74,8 @@
             "synopsis": "The cross-country adventures of 2 good-hearted but incredibly stupid friends.",
             "rating": "7.3/10",
             "release_date": "12/16/94",
-            "runtime": "106"
+            "runtime": "106",
+            "trailer": "https://www.youtube.com/embed/l13yPhimE3o"
         },
         {
             "id": 8,
@@ -78,7 +85,8 @@
             "synopsis": "20 years since their first adventure, Lloyd and Harry go on a road trip to find Harry's newly discovered daughter, who was given up for adoption.",
             "rating": "5.6/10",
             "release_date": "11/14/14",
-            "runtime": "109"
+            "runtime": "109",
+            "trailer": "https://www.youtube.com/embed/lGXHVlEklgQ"
         },
         {
             "id": 9,
@@ -88,7 +96,8 @@
             "synopsis": "Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.",
             "rating": "8/10",
             "release_date": "12/16/88",
-            "runtime": "133"
+            "runtime": "133",
+            "trailer": "https://www.youtube.com/embed/mlNwXuHUA8I"
         },
         {
             "id": 10,
@@ -98,7 +107,8 @@
             "synopsis": "A guy who complains about God too often is given almighty powers to teach him how difficult it is to run the world.",
             "rating": "6.7/10",
             "release_date": "05/23/03",
-            "runtime": "101"
+            "runtime": "101",
+            "trailer": "https://www.youtube.com/embed/fe-luzrqWSk"
         }
     ]
 }

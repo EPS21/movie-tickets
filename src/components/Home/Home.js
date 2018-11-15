@@ -4,7 +4,7 @@ import "react-router";
 import {
   BrowserRouter,
   Route,
-  Link
+  Link  
 } from 'react-router-dom'
 import Search from './Search';
 import MovieList from './MovieList';
@@ -17,5 +17,6 @@ export default class Home extends React.Component {
         <MovieList movies={this.props.movies}/>        
       </div>
     );
-  }
+  }              
+                                
 }
