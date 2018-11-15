@@ -8,9 +8,7 @@ export default class Movie extends React.Component {
     return (
       <div className="movie-container">
         <div className="img-container">
-          <img className="movie-img" src={movie.poster} alt={movie.movie_name} />
-            {/* {this.renderOverlay()} */}
-          
+          <img className="movie-img" src={movie.poster} alt={movie.movie_name} />          
         </div> 
         <div className="movie-desc">
           <p>{movie.movie_name}, {movie.runtime}</p>
@@ -19,18 +17,9 @@ export default class Movie extends React.Component {
           <Link to={"/"+movie.id}>
             {movie.movie_name}
           </Link>
+
         </div>
-
-      </div>      
-
-
-
-
-      // <div className="movie-container">        
-      //   <p>{this.props.movie.id}</p>
-      //   <p>{this.props.movie.movie_name}</p>
-      // </div>
-
+      </div>
     );
   }
 }
