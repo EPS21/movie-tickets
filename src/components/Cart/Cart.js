@@ -6,7 +6,8 @@ export default class Cart extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            cart: 0
+            movieId: null,
+            cart: 2
         }
         this.addTix = this.addTix.bind(this)
     }

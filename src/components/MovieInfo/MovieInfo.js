@@ -20,10 +20,19 @@ export default class MovieInfo extends React.Component{
             })
     }
 
+    clickTest() {
+      alert('you clicked the button');
+    }
+
+    updateCart() {
+      this.props.addToCart();
+    }
+
     render(){
         const movie =this.state.movie ? (
             <div className="MovieDesc">
                 <div>
+                    <h2></h2>
                     <h5>Name</h5>
                     <p>{this.state.movie.movie_name}</p>
                     <h5>Synopsis</h5>
@@ -42,7 +51,11 @@ export default class MovieInfo extends React.Component{
                             pathname: "/shoppingcart",
                             state: this.state.movie
                         }}>
-                            <button>Buy tix</button>
+                            <button 
+                              onClick={() => this.clickTest()}
+                            >
+                              <p>Buy Tix</p>
+                            </button>
                         </Link>
                     </div>
                 </div>
