@@ -19,6 +19,7 @@ class App extends Component {
     this.state = {
       movies: [],
       isLoaded: false,
+      cart: 5
     }
   }
 
@@ -33,6 +34,12 @@ class App extends Component {
       })
   }
 
+  addToCart() {
+    this.setState({
+      cart: 1
+    })
+  }
+
   render() {
 
     var {isLoaded, movies} = this.state;
@@ -41,12 +48,12 @@ class App extends Component {
       return <div>Loading...</div>;
     } else {
       return (
-        <BrowserRouter>
+        <BrowserRouter cart={this.state.cart}>
           <div className="App">
-            <Header />
+            <Header cart={this.state.cart}/>
             {/* <Home movies={this.state.movies}/> */}
 
-            <Switch>
+            <Switch cart={this.state.cart}>
               <Route 
                 exact path="/" 
                 render={() => <Home movies={movies}/>}
@@ -56,8 +63,13 @@ class App extends Component {
                 // render={()=><Cart movie={movies}/>}
                 component={Cart}
               />
-              <Route path="/:id" component={MovieInfo} />
-
+              <Route 
+                path="/:id" 
+                component={MovieInfo}
+                // render={() => <MovieInfo cart={this.state.cart} />}
+                // cart={this.state.cart}
+                // addToCart={this.addToCart()}
+              />
             </Switch>
 
             <Link to="/">Home</Link>
