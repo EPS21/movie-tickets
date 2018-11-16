@@ -44,18 +44,13 @@ class App extends Component {
         <BrowserRouter>
           <div className="App">
             <Header />
-            {/* <Home movies={this.state.movies}/> */}
 
             <Switch>
               <Route 
                 exact path="/" 
                 render={() => <Home movies={movies}/>}
               />
-              <Route 
-                path="/shoppingcart"
-                // render={()=><Cart movie={movies}/>}
-                component={Cart}
-              />
+              <Route path="/shoppingcart" component={Cart} />
               <Route path="/:id" component={MovieInfo} />
 
             </Switch>

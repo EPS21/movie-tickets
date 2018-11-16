@@ -48,7 +48,7 @@ export default class MovieInfo extends React.Component{
                 </div>
                 <br></br>
                 <div>
-                    <iframe width="700" height="400" src={this.state.movie.trailer}></iframe>
+                    <iframe title="Trailer" width="700" height="400" src={this.state.movie.trailer}></iframe>
                 </div>
             </div>
         ) : (

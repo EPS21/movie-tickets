@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css';
-import cart from '../imgs/cart.png';
 import {Link} from 'react-router-dom';
 
 export default class Header extends React.Component{
@@ -13,7 +12,6 @@ export default class Header extends React.Component{
                     <Link to="/shoppingcart">
                         <button></button>
                     </Link>
-                    {/* <img src={cart} alt={cart} height="35" width="35"/> */}
                 </div>
             </div>
         )
