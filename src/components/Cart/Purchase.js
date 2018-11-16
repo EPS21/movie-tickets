@@ -12,19 +12,11 @@ export default class Purchase extends React.Component{
     }
 
     addTix(){
-        // const num = 1;
-        // num+=this.props.cart
-        // const amount = this.props.cart;
-        // amount = this.state+num
-        // this.props.onClick(num);
-        // console.log(amount)
-        // console.log(num)
         console.log("add 1 tix")
     }
     
     deleteTix(){
         console.log("delete 1 tix")
-        // this.props.onClick(num);
     }
 
     render(){

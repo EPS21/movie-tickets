@@ -21,11 +21,11 @@ export default class MovieInfo extends React.Component{
     }
 
     clickTest() {
-      alert('you clicked the button');
+        alert('you clicked the button');
     }
 
     updateCart() {
-      this.props.addToCart();
+        this.props.addToCart();
     }
 
     render(){
@@ -52,9 +52,9 @@ export default class MovieInfo extends React.Component{
                             state: this.state.movie
                         }}>
                             <button 
-                              onClick={() => this.clickTest()}
+                                onClick={() => this.clickTest()}
                             >
-                              <p>Buy Tix</p>
+                                <p>Buy Tix</p>
                             </button>
                         </Link>
                     </div>

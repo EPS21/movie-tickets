@@ -12,6 +12,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Cart from './components/Cart/Cart'
 import MovieInfo from './components/MovieInfo/MovieInfo';
+import Error from './Error';
 
 class App extends Component {
   constructor(props) {
@@ -58,8 +59,8 @@ class App extends Component {
                 render={() => <Home movies={movies}/>}
               />
               <Route path="/shoppingcart" component={Cart} />
-              <Route path="/:id" component={MovieInfo} />
-
+              <Route exact path="/:id" component={MovieInfo} />
+              <Route component={Error} />
             </Switch>
 
             <Link to="/">Home</Link>
