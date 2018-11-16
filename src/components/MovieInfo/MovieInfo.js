@@ -7,7 +7,6 @@ export default class MovieInfo extends React.Component{
         this.state={
             movie: null
         }
-        // this.handleClick = this.handleClick.bind(this);
     }
 
     componentDidMount(){
@@ -32,7 +31,7 @@ export default class MovieInfo extends React.Component{
                     <h5>Release Date</h5>
                     <p>{this.state.movie.release_date}</p>
                     <h5>Genre</h5>
-                    <p>No Genre Yet</p>
+                    <p>{this.state.movie.genre}</p>
                     <h5>Rating</h5>
                     <p>{this.state.movie.rating}</p>
                     <h5>Run Time</h5>
@@ -41,11 +40,7 @@ export default class MovieInfo extends React.Component{
                     <div>
                         <Link to={{
                             pathname: "/shoppingcart",
-                            state: this.state.movie 
-                            // this.state.movie.id
-                            // {
-                            //     movie: this.state.movie
-                            // }
+                            state: this.state.movie
                         }}>
                             <button>Buy tix</button>
                         </Link>

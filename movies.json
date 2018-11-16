@@ -9,7 +9,8 @@
             "rating": "8.1/10",
             "release_date": "05/04/2012",
             "runtime": "143",
-            "trailer": "https://www.youtube.com/embed/eOrNdBpGMv8"
+            "trailer": "https://www.youtube.com/embed/eOrNdBpGMv8",
+            "genre": "Action/Adventure"
         },
         {
             "id": 2,
@@ -20,7 +21,8 @@
             "rating": "7.4/10",
             "release_date": "05/01/2015",
             "runtime": "141",
-            "trailer": "https://www.youtube.com/embed/tmeOjFno6Do"
+            "trailer": "https://www.youtube.com/embed/tmeOjFno6Do",
+            "genre": "Action/Adventure"
         },
         {
             "id": 3,
@@ -31,7 +33,8 @@
             "rating": "8.6/10",
             "release_date": "04/27/18",
             "runtime": "149",
-            "trailer": "https://www.youtube.com/embed/6ZfuNTqbHE8"
+            "trailer": "https://www.youtube.com/embed/6ZfuNTqbHE8",
+            "genre": "Action/Adventure"
         },
         {
             "id": 4,
@@ -42,7 +45,8 @@
             "rating": "8.3/10",
             "release_date": "06/15/05",
             "runtime": "140",
-            "trailer": "https://www.youtube.com/embed/neY2xVmOfUM"
+            "trailer": "https://www.youtube.com/embed/neY2xVmOfUM",
+            "genre": "Action/Adventure"
         },
         {
             "id": 5,
@@ -53,7 +57,8 @@
             "rating": "9/10",
             "release_date": "07/18/08",
             "runtime": "152",
-            "trailer": "https://www.youtube.com/embed/EXeTwQWrcwY"
+            "trailer": "https://www.youtube.com/embed/EXeTwQWrcwY",
+            "genre": "Action/Adventure"
         },
         {
             "id": 6,
@@ -64,7 +69,8 @@
             "rating": "8.4/10",
             "release_date": "07/20/12",
             "runtime": "165",
-            "trailer": "https://www.youtube.com/embed/GokKUqLcvD8"
+            "trailer": "https://www.youtube.com/embed/GokKUqLcvD8",
+            "genre": "Action/Adventure"
         },
         {
             "id": 7,
@@ -75,7 +81,8 @@
             "rating": "7.3/10",
             "release_date": "12/16/94",
             "runtime": "106",
-            "trailer": "https://www.youtube.com/embed/l13yPhimE3o"
+            "trailer": "https://www.youtube.com/embed/l13yPhimE3o",
+            "genre": "Comedy"
         },
         {
             "id": 8,
@@ -86,7 +93,8 @@
             "rating": "5.6/10",
             "release_date": "11/14/14",
             "runtime": "109",
-            "trailer": "https://www.youtube.com/embed/lGXHVlEklgQ"
+            "trailer": "https://www.youtube.com/embed/lGXHVlEklgQ",
+            "genre": "Comedy"
         },
         {
             "id": 9,
@@ -97,7 +105,8 @@
             "rating": "8/10",
             "release_date": "12/16/88",
             "runtime": "133",
-            "trailer": "https://www.youtube.com/embed/mlNwXuHUA8I"
+            "trailer": "https://www.youtube.com/embed/mlNwXuHUA8I",
+            "genre": "Drama"
         },
         {
             "id": 10,
@@ -108,7 +117,8 @@
             "rating": "6.7/10",
             "release_date": "05/23/03",
             "runtime": "101",
-            "trailer": "https://www.youtube.com/embed/fe-luzrqWSk"
+            "trailer": "https://www.youtube.com/embed/fe-luzrqWSk",
+            "genre": "Comedy"
         }
     ]
 }
