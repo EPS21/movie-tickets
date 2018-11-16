@@ -9,13 +9,18 @@ export default class Cart extends React.Component{
             movieId: null,
             cart: 2
         }
+        this.addTix = this.addTix.bind(this)
+    }
+
+    addTix(){
+        console.log("Adding tix")
     }
 
     render(){
         const pur =this.props.location.state;
         const movie = this.props.location.state ? (
             <div>
-                <Purchase />
+                <Purchase onClick={this.addTix} cart={this.state.cart}/>
                 <ShortDesc movie={pur}/>
             </div>
         ) : (
@@ -23,13 +28,9 @@ export default class Cart extends React.Component{
                 <Purchase />
             </div>
         )
-        // console.log(movie)
         return(
             <div className="cart-container">
                 { movie }
-                {/* <h3>Cart goes here</h3>
-                <Purchase />
-                <ShortDesc movie={movie}/> */}
             </div>
         )
     }
