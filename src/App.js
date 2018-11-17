@@ -12,6 +12,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Cart from './components/Cart/Cart'
 import MovieInfo from './components/MovieInfo/MovieInfo';
+import Error from './Error';
 
 class App extends Component {
   constructor(props) {
@@ -50,26 +51,16 @@ class App extends Component {
       return (
         <BrowserRouter cart={this.state.cart}>
           <div className="App">
-            <Header cart={this.state.cart}/>
-            {/* <Home movies={this.state.movies}/> */}
+            <Header />
 
             <Switch cart={this.state.cart}>
               <Route 
                 exact path="/" 
                 render={() => <Home movies={movies}/>}
               />
-              <Route 
-                path="/shoppingcart"
-                // render={()=><Cart movie={movies}/>}
-                component={Cart}
-              />
-              <Route 
-                path="/:id" 
-                component={MovieInfo}
-                // render={() => <MovieInfo cart={this.state.cart} />}
-                // cart={this.state.cart}
-                // addToCart={this.addToCart()}
-              />
+              <Route path="/shoppingcart" component={Cart} />
+              <Route exact path="/:id" component={MovieInfo} />
+              <Route component={Error} />
             </Switch>
 
             <Link to="/">Home</Link>
