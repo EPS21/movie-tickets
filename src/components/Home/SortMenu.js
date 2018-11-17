@@ -1,17 +1,9 @@
 import React from 'react';
 import './Home.css'
 
-export default class SortMenu extends React.Component{
-  constructor(props) {
-    super(props);
-    this.state = {      
-      sortValue: ''
-    }
-  }  
+export default class SortMenu extends React.Component{  
 
-  updateSort(event) {
-    console.log(event.target.value);
-    this.setState({sortValue: event.target.value});
+  updateSort(event) {    
     this.props.getSortMenuValue(event.target.value);
   }
 
@@ -21,7 +13,6 @@ export default class SortMenu extends React.Component{
         <fieldset>
           <legend>Sort By...</legend>
           <select 
-            value={this.state.value} 
             onChange={this.updateSort.bind(this)}
           >
             {/* <option>...</option> */}

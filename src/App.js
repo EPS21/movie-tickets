@@ -19,7 +19,7 @@ class App extends Component {
     this.state = {
       movies: [],
       isLoaded: false,
-      cart: 5
+      cart: 0
     }
   }
 
@@ -79,7 +79,6 @@ class App extends Component {
         </BrowserRouter>
       );
     }
-
     
   }
 }

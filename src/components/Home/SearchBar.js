@@ -1,21 +1,9 @@
 import React from 'react';
 import './Home.css'
 
-export default class SearchBar extends React.Component{
-  constructor(props) {
-    super(props);
-    this.state = {
-      inputStr: '',
-    }
+export default class SearchBar extends React.Component{  
 
-    // You can put this bind in inputs onChange below, don't need it here
-    //this.updateSearch = this.updateSearch.bind(this);
-  }
-
-  updateSearch(event) {
-    this.setState({
-      inputStr: event.target.value
-    })
+  updateSearch(event) {    
     this.props.getSearchBarStr(event.target.value);
   }
   
@@ -26,8 +14,7 @@ export default class SearchBar extends React.Component{
           <legend>Search Movies</legend>
           {/* onChange and onInput are the same in React? */}
           <input 
-            type='text' 
-            value={this.state.inputStr}
+            type='text'             
             onChange={this.updateSearch.bind(this)}  
           />
         </fieldset>

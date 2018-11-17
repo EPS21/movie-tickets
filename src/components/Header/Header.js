@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import cart from '../imgs/cart.png';
+// import cart from '../imgs/cart.png';
 import {Link} from 'react-router-dom';
 
 export default class Header extends React.Component{
