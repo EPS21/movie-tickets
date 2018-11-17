@@ -32,7 +32,6 @@ export default class MovieInfo extends React.Component{
         const movie =this.state.movie ? (
             <div className="MovieDesc">
                 <div>
-                    <h2></h2>
                     <h5>Name</h5>
                     <p>{this.state.movie.movie_name}</p>
                     <h5>Synopsis</h5>
